@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     background: none;
-    position: sticky;
-    top: 0;
+    position:fixed;
+    
 }
 .topnav .nav_menu{
     margin-right: 20px;
@@ -925,6 +925,8 @@ font-weight:700;
     padding: 15px;
     background-color: rgb(56, 141, 168);
     margin-left: 95%;
+    
+    
 }
 #id-svg{
     
