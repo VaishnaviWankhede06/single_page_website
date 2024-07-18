@@ -1,0 +1,935 @@
+.topnav{
+    display: flex;
+    align-items: center;
+    background: none;
+    position: sticky;
+    top: 0;
+}
+.topnav .nav_menu{
+    margin-right: 20px;
+    font-size: 16px;
+}
+.topnav .nav_menu:hover{
+    color: rgb(134, 195, 221)
+}
+.topnav p{
+    
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 35px;
+}
+.topnav #Q{
+    margin-left: 100px;
+    font-size:50px ;
+    color: rgb(73, 182, 182);
+}
+.topnav #q_start{
+    margin-right: 160px;
+    margin-left: 0;
+    
+    font-size:30px ;
+    color: gray;
+}
+.topnav a{
+   text-decoration: none;
+   font-size: 20px;
+   font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.topnav #dropdown{
+    font-size: 18px;
+   font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        color: brown;
+}
+#contact{
+    margin-right: 0;
+}
+.topnav #get_started{
+    background-color: rgb(69, 122, 122);
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    border-radius: 30px;
+    margin-right: 90px;
+    
+}
+.topnav #get_s{
+    font-size: 16px;
+    color: #fff;
+}
+
+/* ----image div ------- */
+
+.wel_to_qs{
+    background-image: repeating-conic-gradient(rgb(214, 243, 221),rgb(247, 242, 205),rgb(219, 210, 228),
+    rgb(190, 190, 221) ,white,rgb(248, 219, 225),rgb(238, 248, 238),rgb(242, 253, 244),rgb(252, 252, 210),rgb(255, 254, 255),
+    rgb(214, 214, 230) ,rgb(255, 245, 245),rgb(252, 246, 247),rgb(214, 233, 214));
+    width: 100%;
+    
+}
+.wel_to_qs .div_first{
+    font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+       margin-left: 390px;
+       padding-top: 40px;
+      
+}
+.wel_to_qs .div_first .first_p{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.heading{
+    display: flex;
+}
+#wel{
+    color: slategray;
+}
+#quick{
+    color: rgb(69, 122, 122);
+    margin-left: 5px;
+}
+.wel_to_qs .div_first #second_p{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.wel_to_qs .div_first .get_started{
+    background-color: rgb(69, 122, 122);
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+.wel_to_qs .div_first .get_started #get_s1{
+    font-size: 16px;
+    color: #fff;
+}
+.wel_to_qs .div_first a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.wel_to_qs .div_first .txt_vedio{
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+.wel_to_qs .div_first .txt_vedio span{
+    border-radius: 50%;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(53, 133, 133);
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.wel_to_qs .div_first .txt_vedio span i{
+    font-size: 13px;
+    color:rgb(53, 133, 133);
+   
+}
+#vedio{
+    font-size: 19px;
+    color: black;
+}
+.wel_to_qs #first_image{
+    width: 600px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+    margin-left: 0;
+}
+
+/* -------------------- division 3 -----------*/
+.card-3{
+    display: flex;
+    background-color:rgb(249, 252, 253);
+    margin-top:0;
+    height: 210px;
+    align-items: center;
+    justify-content: center;
+    
+}
+ .icn{
+    width: 70px;
+    height:70px;
+    background-color:rgb(174, 212, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    color: rgb(52, 119, 139);
+}
+.card-3 i{
+    font-size: 30px;
+}
+
+ .paragraph{
+    padding-top: 10px;
+    width: 300px;
+    margin-left: 10px;
+}
+
+
+ .paragraph .text1{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 0;
+    color: slategrey;
+}
+ .paragraph .text2{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-top:0;
+    color: slategrey;
+}
+
+
+
+
+    
+    
+.logo{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 70px;
+    margin-right: 100px;
+    background-color: transparent;
+    filter: grayscale(100%);
+}
+.logo img:hover{
+    filter: grayscale(0%);
+}
+
+/* ---------------division 4 -----------------*/
+
+.strategy{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.left_strategy{
+    margin-left: 100px;
+    width: 570px;
+    
+}
+#l1{
+    font-size: 18px;
+}
+
+.left_strategy span{
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(34, 104, 104);
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 10px;
+}
+.left_strategy p{
+    font-size: 17px;
+    color: gray;
+}
+.left_strategy svg{
+    margin-right: 10px;
+    color:rgb(34, 104, 104);
+}
+.read_more{
+    width: 150px;
+    height: 50px;
+    background-color:  rgb(69, 122, 122);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.read_more svg{
+    margin-left: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+/* ---- right part -----*/
+.right_strategy{
+ display: flex;
+ width: 580px;
+ 
+ margin: 0 100px 0 20px;
+}
+.left_part{
+    width: 270px;
+    height: 200px;
+    
+}
+#img1{
+    width: 270px;
+    border-radius: 10px;
+    height: 400px;
+}
+.right_part{
+    width: 270px;
+   
+   margin-left: 20px;
+    
+}
+#img2{
+ width: 270px;
+ border-radius: 10px;
+ margin-bottom: 20px;
+}
+#img3{
+width: 270px;
+border-radius: 10px;
+}
+
+/* ------------------division 5 --------------------*/
+
+.features{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.crd-img{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    display: flex;
+}
+.cad-img-left{
+    width: 450px;
+    
+    margin-right: 130px;
+}
+.crd{
+    display: flex;
+    background-color: rgb(227, 233, 231);
+    border-radius: 15px;
+    width: 450px;
+    height: 170px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.crd span{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 20px;
+    box-shadow: 0 2px 2px 2px rgb(168, 184, 184);
+}
+.txt{
+    width: 332px;
+    
+    height: 130px;
+}
+.txt p{
+    font-size: 15px;
+}
+.crd-img-right{
+    width: 545px;
+    
+}
+.crd-img-right img{
+    width: 545px;
+    height: 580px;
+    border-radius: 15px;
+}
+/* ---------------- division 6 -------------*/
+.corporist{
+    display: flex;
+    margin-top: 100px;
+}
+.img-1{
+    width: 550px;
+    margin-left: 100px;
+    border-radius: 15px;
+    margin-right: 150px;
+    height: 470px;
+}
+#lrn-more{
+    background-color: rgb(69, 122, 122);
+    color: white;
+    width: 150px;
+}
+.temporibs{
+    font-size: 25px;
+    margin: 0;
+    
+}
+
+/* ----------------- division 7 -----------------*/
+.neque{
+    display: flex;
+    margin-top: 100px;
+}
+.crd-1{
+    width: 460px;
+    margin-left: 110px;
+    margin-right:120px;
+    height: 365px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.neque img{
+    margin-right:110px;
+    margin-left: 0;
+}
+.neque ul{
+    margin-left: 0;
+}
+.crd-bdy{
+    
+    
+    width: 380px;
+    
+}
+.crd-bdy h3{
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(62, 80, 85);
+    font-family: Nunito, sans-serif;
+    margin-bottom: 10px;
+}
+.crd-bdy p{
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans";
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: rgb(141, 156, 160);
+}
+.crd-1 ul{
+    padding-left: 0;
+  list-style-type: none;
+}
+.crd-1 li{
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans";
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: rgb(141, 156, 160);
+}
+.crd-1 svg{
+    color: rgb(56, 141, 168);
+    font-size: 40px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.crd-1 a{
+   
+    background-color: rgb(56, 141, 168);
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: center;
+    width: 142px;
+}
+
+
+/*********************  division 8 ********************/
+.servis{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(248, 251, 252);
+    padding-bottom: 50px;
+}
+.div8-crd{
+    
+    width:100%;
+    margin-top: 50px;
+   
+}
+.div3{
+    
+    width: 550px;
+    
+}
+.crd-6{
+    display: flex;
+    
+    
+}
+#id_div3{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.div8-crd span{
+    width: 80px;
+     height: 80px;
+     border-radius: 10px;
+     margin-left: 30px;
+     margin-right: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 20px;
+}
+.div8-crd svg{
+    font-size: 50px;
+}
+.crdbdy{
+    margin-right: 40px;
+    width: 100px;
+}
+.crdbdy p{
+    font-size: 16px;
+}
+.butn{
+    padding: 0;
+}
+#id-spn1{
+    border: 1px solid skyblue;
+    background-color: rgba(199, 228, 240, 0.3);
+    
+}
+#id-spn2{
+    background-color: rgba(0, 128, 0,0.3);
+    border: 1px solid green;
+
+}
+#id-spn3{
+    background-color: rgba(138, 43, 226,0.3);
+    border: 1px solid blueviolet;
+
+}
+#id-spn4{
+    background-color: rgba(255, 165, 0,0.3);
+    border: 1px solid orange;
+}
+#id-spn5{
+    background-color: rgba(255, 0, 0,0.3);
+    border: 1px solid red;
+}
+#id-spn6{
+    background-color: rgba(255, 192, 203, 0.3);
+    border: 1px solid rgb(238, 141, 157);
+}
+
+
+/*****************************division 9  ************************/
+.main-div{
+    display: flex;
+    
+}
+.lp{
+    margin-left: 130px;
+    width: 600px;
+    margin-right: 50px;
+}
+.lp h3{
+    font-size: 28px;
+    font-weight: 700;
+    color:rgb(62, 80, 85);
+    margin-bottom: 30px;
+}
+#voluptas{
+   font-size: 16px;
+   font-weight: 400;
+   color:rgb(61, 67, 72);
+   font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple";
+   margin-bottom: 50px;
+}
+.u_P{
+    display: flex;
+    
+}
+.l_p{
+    display: flex;
+}
+.lndt{
+    color: rgb(62, 80, 85);
+    font-size: 18px;
+    font-family: Nunito, sans-serif;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.vaee{
+    color: rgb(61, 67, 72);
+    font-size: 14px;
+    font-weight: 400;
+    font-weight: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple";
+}
+.main-div svg{
+    color: rgb(56, 141, 168);
+    font-weight: 400;
+    margin-right: 10px;
+}
+.main-div img{
+    width: 480px;
+    margin-right:130px;
+    
+}
+/* -------------------------- division 10 ------------------------- */
+.plans{
+    display: flex;
+    margin-left: 90px;
+}
+.plan{
+    background-color:rgb(250, 253, 253);
+
+    width: 350px;
+    margin-left: 30px;
+    padding: 40px;
+    border-radius: 15px;
+}
+.plan h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(62, 80, 85);
+    font-family: Nunito, sans-serif;
+}
+.plan p{
+   font-family:  Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 14px;
+    font-weight: 300;
+    margin-block-end: 16px;
+}
+.plan h4{
+    margin: 30px 0 30px 0;
+}
+.plan a{
+background-color: rgb(56, 141, 168);
+border:1px solid rgb(56, 141, 168);   
+border-radius: 5px;
+
+text-decoration: none;
+
+color: rgb(255, 255, 255);
+font-family: Nunito, sans-serif;
+font-weight: 500;
+font-size: 16px;
+height: 46px;
+line-height: 24px;
+margin-bottom :6px;
+margin-top :20px;
+padding: 10px 75px 10px 75px;
+text-align: center;
+text-decoration-color: rgb(255, 255, 255);
+text-size-adjust: 100%;
+width: 500px;
+}
+.plan ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.plan li{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:gray;
+}
+.creadit{
+    padding-top: 6px;
+}
+.cross{
+    font-weight: 700;
+}
+.cls-svg{
+    color: green;
+}
+
+/* -------------------------------division 11 ------------------------*/
+.accordion-cls{
+    margin-left: 205px;
+    margin-right: 205px;
+}
+.accordion-cls h3{
+    padding: 10px;
+}
+.box1{
+    margin-bottom: 20px;
+}
+
+
+/* --------------------------- division 12 ---------------------------*/
+.stars{
+   
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.stars svg{
+    color: orange
+    
+}
+.crosl{
+    margin-top: 100px;
+    box-shadow: 10px 10px 5px 0px rgba(145, 110, 110, 0.5), -10px -10px 5px 0px rgba(145, 119, 119, 0.3);
+    
+}
+.crosl p{
+    color: rgb(61, 67, 72);
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji";
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+ }
+ .c-div{
+   padding: 20px;
+  
+ }
+ .crosl h4{
+    font-size: 14px;
+    font-weight: Nunito, sans-serif;
+    font-weight: 500;
+    text-align: center;
+ }
+ .crosl h3{
+    font-family: rgb(62, 80, 85);
+    font-size: 18px;
+    text-align: center;
+ }
+ .crosl img{
+    display: flex;
+    align-content: center;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+
+ }
+
+
+/* -----------------------------division -----------------------------*/
+.contact{
+    display: flex;
+    margin-left: 110px;
+   
+    margin-right: 110px;
+}
+.contact h3{
+color: rgb(62, 80, 85);
+font-family :Nunito, sans-serif;
+font-size: 18px;
+font-weight:700;
+}
+.contact p{
+    font-size: 14px;
+}
+.address-call-email svg{
+    font-size: 24px;
+    
+}
+.contact-icn{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 2px dotted rgb(56, 141, 168);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+}
+.address-call-email{
+   box-shadow: 2px 2px 2px 2px rgb(205, 220, 224) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+}
+#address{
+    width: 540px;
+    
+}
+.call-email{
+    width: 270px;
+    margin-left: 20px;
+}
+.form-map{
+    margin-top: 20px;
+    margin-left: 110px;
+    display: flex;
+}
+.map{
+    width:540px;
+    
+    margin-right: 20px;
+    height: 400px;
+}
+.form1{
+    
+    width: 560px;
+    box-shadow: 2px 2px 2px 2px rgb(205, 220, 224) ;
+}
+.data{
+    margin: 30px 30px 30px 30px;
+    
+}
+#id-input1{
+    margin-right: 30px;
+}
+.data input{
+    width: 232px;
+    height: 45px;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.component{
+    margin: 0 30px 0 30px;
+}
+#id-txt{
+    width: 500px;
+    margin-bottom: 30px;
+    height: 40px;
+    font-size: 14px;
+    padding-left:  15px;
+}
+#txtarea{
+    width: 500px;
+    margin-bottom: 30px;
+    height: 148px;
+    font-size: 14px;
+    padding-left:  15px;
+}
+#btn-id{
+    width: 165px;
+    border-radius: 30px;
+    height: 44px;
+    font-size: 16px;
+    margin-top: 0;
+    background-color: rgb(56, 141, 168);
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    margin-left:200px;
+    margin-right: auto;
+}
+
+/* ---------------------------- division --------------------*/
+.last-div{
+    display: flex;
+}
+.quick-s{
+    box-sizing: border-box;
+    color: rgb(62, 80, 85);
+    font-size: 26px;
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+}
+.first-div p{
+   font-size: 14px;
+   font-weight: 400;
+   font-family: Nunito, sans-serif;
+  
+}
+.last-div li{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Nunito, sans-serif;
+    line-height: 30px;
+   
+}
+.second-div ul{
+    list-style-type:none;
+    padding-left: 0;
+}
+.third-div ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.last-div h4{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Nunito, sans-serif;
+}
+#subscribe{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Nunito, sans-serif;
+}
+.icns{
+    width: 100%;
+   
+}
+.icns svg{
+    padding: 8px;
+     border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 5px;
+    font-weight: 400;
+    
+}
+.input-cls{
+    background-color: rgb(255, 255, 255); 
+    width: 390px; 
+    height: 43px;
+     border-radius: 50px;
+     border: 1px solid black;
+    padding:0;
+}
+#input1{
+    width: 270px;
+     height:29px; 
+     padding: 4px;
+     margin:6px 0 0 8px;
+     border: none;
+}
+#input2{
+    background-color:rgb(56, 141, 168);
+    color: rgb(255, 255, 255); 
+    font-size: 16px;
+     border-radius: 50px;
+     margin-right:0;
+      width:105px;
+      height:43px;
+      border: none;
+      margin-top: 0;
+}
+.cpyright{
+    font-size: 14px;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans";
+    margin-bottom: 0;
+}
+.box1{
+    margin-bottom: 20px;
+}
+#id-a{
+    
+    border-radius: 50%;
+    padding: 15px;
+    background-color: rgb(56, 141, 168);
+    margin-left: 95%;
+}
+#id-svg{
+    
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    
+}
